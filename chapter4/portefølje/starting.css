@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(144, 140, 140);
+}
+h1{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 500%;
+    white-space: nowrap;
+    font-family: 'Bebas Neue', sans-serif;
+}
+p{
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 150%;
+    font-family: 'Bebas Neue', sans-serif;
+}
+#mainImg{
+    border-radius: 60px;
+    border: 3px solid rgb(200, 200, 200);
+    height: fit-content;
+    height: 120%;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#leftImg{
+    border-radius: 60px;
+    border: 3px solid rgb(200, 200, 200);
+    position: absolute;
+    top: 38%;
+    left: 0%;
+    height: 95%;
+}
+#rightImg{
+    border-radius: 60px;
+    border: 3px solid rgb(200, 200, 200);
+    position: absolute;
+    top: 38%;
+    right: 0%;
+    height: 95%;
+}

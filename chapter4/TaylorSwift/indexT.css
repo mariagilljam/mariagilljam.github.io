@@ -1,0 +1,74 @@
+body{
+  background-image: url(bilder/bakgrunnsbilde.jpeg);
+  font-family: 'Inter', sans-serif;
+}
+
+#sortByText{
+  margin: 10px;
+}
+.sortWrapper{
+  display: flex;
+}
+.sortWrapper>button{
+  margin: 20px;
+}
+.sortWrapper>div{
+  margin: 20px;
+}
+ul{
+  overflow: auto;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+ul>li {
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  height: 10em;
+  border-radius: 3px;
+  margin-left: 0.3em;
+  width: 5em;
+}
+li::marker {
+  content: '';
+}
+ul li:hover {
+  background-color: rgb(102, 173, 211);
+}
+li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+#imageContainer{
+  max-height: 6em;
+  border: 1.5px solid rgb(61, 61, 61);
+  height: auto;
+}
+#songTitle{
+  color: rgb(112, 112, 112);
+  font-size:small;
+}
+span{
+  white-space: pre-line;
+}
+li button{
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+}
+#textForButton{
+  display: inline-block;
+  margin-left:1em;
+}

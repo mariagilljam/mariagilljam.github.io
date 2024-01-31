@@ -1,0 +1,11 @@
+#grid-container{
+    display: grid;
+    width: 50vw;
+    height: 50vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1em;
+}
+.grid-item{
+    background-color: grey;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>kalkulator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="indexK.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+</head>
+<body id="body">
+
+    <div id="calculator">
+        <input type="text" id="display" disabled>
+        <div id="buttons">
+            <div id="rowOne">
+            <button class="number" data-number="1">1</button>
+            <button class="number" data-number="2">2</button>
+            <button class="number" data-number="3">3</button>
+            <button onclick="displayNumber('+')" id="pluss">+</button>
+            </div>
+        
+            <div class="rowTwo">
+            <button class="number" data-number="4">4</button>
+            <button class="number" data-number="5">5</button>
+            <button class="number" data-number="6">6</button>
+            <button onclick="displayNumber('-')" id="minus">-</button>
+            </div>
+        
+            <div class="rowThree">
+            <button class="number" data-number="7">7 </button>
+            <button class="number" data-number="8">8 </button>
+            <button class="number" data-number="9">9 </button>
+            <button onclick="displayNumber('*')" id="gange">*</button>
+            </div>
+        
+            <div class="rowFour">
+            <button onclick="clearDisplay()" id="C">C</button>
+            <button class="number" data-number="0">0</button>
+            <button onclick="calculateResult()" id="erLik">=</button>
+            <button onclick="displayNumber('/')" id="dele">/</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="textForButton">Litt kjedelige farger? <br> Trykk her da vel!</div>
+    <div id="textForButton2">Føler for enda mer farge?</div>
+    <div id="textForButton3">Oi det ble vel litt mye eller?</div>
+    <button id="colorButton"></button>
+    
+</body>
+<script src="indexK.js"></script>
+</html>
